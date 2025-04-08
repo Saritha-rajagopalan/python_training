@@ -1,0 +1,7 @@
+﻿Target Table Name,TARGET COLUMN,SOURCE TABLE,SOURCE COLUMN ,TRANSFORMATION LOGIC
+Target_table,Employee_ID,Source_Table_1,Employee_ID,Direct
+Target_table,Employee_Name,Source_Table_1,Name,Direct
+Target_table,Employee_Dept,Source_Table_1,Dept,Direct
+Target_table,Employee_JRSS,Source_Table_2,JRSS,"Join using Source_Table_1.Employee_ID ,Source_Table_2.Employee_ID"
+Target_table,Employee_Experience,Source_Table_2,Experience,"Join using Source_Table_1.Employee_ID ,Source_Table_2.Employee_ID"
+Target_table,Employee_Salary,Source_Table_2,Salary,"Join using Source_Table_1.Employee_ID ,Source_Table_2.Employee_ID"
